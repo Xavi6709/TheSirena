@@ -1,0 +1,96 @@
+#Cuerpo {
+    background-color: white;
+   
+}
+    
+#Logo {
+        width: 194.52px;
+        height: 57.59px;
+        top: 0%;   
+    }
+    
+#principal {
+      margin: 0px;
+      background-color: yellow;
+    
+}
+    
+    .search-container {
+        display: flex;
+        align-items: right; /* Centra verticalmente los elementos */
+        max-width: 400px; /* Ancho máximo para la barra de búsqueda */
+        margin: 0 auto; /* Centra la barra de búsqueda horizontalmente */
+        background-color: #f0f0f0; /* Color de fondo de la barra de búsqueda */
+        border-radius: 20px; /* Bordes redondeados */
+        padding: 5px; /* Espaciado interno */
+      }
+      
+      input[type="text"] {
+        border: none;
+        outline: none;
+        flex: 1; /* El campo de entrada se expande para ocupar el espacio restante */
+        padding: 10px; /* Espaciado interno */
+      }
+      
+      button {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+      
+      button img {
+        width: 20px; /* Tamaño del icono de búsqueda */
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul {
+        background-color: #00B2E3;
+        height: 100%;
+        width: 100%;
+        text-align: left;
+    
+       
+    
+    }
+    nav li {
+        display: inline-flex;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        width: 200;
+        size: 6;
+        margin: 0%;
+    }
+    nav li :hover {
+        background-color: blue;
+    
+    }
+    
+
+ h1, h2 {
+
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ 
+p {
+    font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+ #Hola {
+    text-align: left;
+     }
+
+
+ #Right {
+    text-align: right;
+ }
+ 

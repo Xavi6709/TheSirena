@@ -1,0 +1,108 @@
+#Cuerpo {
+    background-color: white;
+   
+}
+    
+#Logo {
+        width: 194.52px;
+        height: 57.59px;
+        top: 0%;   
+    }
+    
+#principal {
+      margin: 0px;
+      background-color: yellow;
+    
+}
+    
+    .search-container {
+        display: flex;
+        align-items: right; /* Centra verticalmente los elementos */
+        max-width: 400px; /* Ancho máximo para la barra de búsqueda */
+        margin: 0 auto; /* Centra la barra de búsqueda horizontalmente */
+        background-color: #f0f0f0; /* Color de fondo de la barra de búsqueda */
+        border-radius: 20px; /* Bordes redondeados */
+        padding: 5px; /* Espaciado interno */
+      }
+      
+      input[type="text"] {
+        border: none;
+        outline: none;
+        flex: 1; /* El campo de entrada se expande para ocupar el espacio restante */
+        padding: 10px; /* Espaciado interno */
+      }
+      
+      button {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+      
+      button img {
+        width: 20px; /* Tamaño del icono de búsqueda */
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul {
+        background-color: #00B2E3;
+        height: 100%;
+        width: 100%;
+        text-align: left;
+    
+       
+    
+    }
+    nav li {
+        display: inline-flex;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        width: 200;
+        size: 6;
+        margin: 0%;
+    }
+    nav li :hover {
+        background-color: blue;
+    
+    }
+
+
+ .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+.product button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
